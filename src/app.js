@@ -33,7 +33,7 @@ const pool = createPool({
 //API RESTful
 
 app.get('/',(req,res)=>{
-    res.send("<h1>Hola</h1>");
+    res.send(`<h1>Hola corriendo desde ${PORT}</h1>`);
 })
 
 app.get('/usuarios',async (req, res)=>{
